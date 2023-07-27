@@ -1,0 +1,50 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 120px 20px 113px;
+    align-items: center;
+    width: 1198.688px;
+}
+
+.aside1 {
+    display: flex;
+    gap: 31px;
+    justify-content: center;
+}
+
+.aside2 {
+    display: flex;
+    gap: 31px;
+    align-items: flex-start;
+
+}
+
+.signupbtn>button {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 16px 24px;
+    border-radius: 2000px;
+    background: #5200FF;
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
+
+.loginbtn>button {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 16px 24px;
+    border-radius: 2000px;
+    border: 0;
+    background: white;
+    cursor: pointer;
+}
+
+/* .signupbtn:hover {
+    padding: 16px 24px;
+    border-radius: 2000px;
+    background: #5200FF;
+
+} */
