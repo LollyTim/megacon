@@ -7,7 +7,7 @@ const Section2 = () => {
     return (
         <div>
             <section>
-                <Card title='ideation' image='fluent_pen-20-filled.png' text='leorem ispieum dommy twxt text' />
+                <Card title='ideation' text='leorem ispieum dommy twxt text' />
             </section>
         </div>
     )
