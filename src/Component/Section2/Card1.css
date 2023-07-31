@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 250px;
+    flex-shrink: 0;
+    height: 250px;
+    border-radius: 12px;
+    border: 1px solid #F7F3FF;
+    background: #F7F3FF;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.card-image {
+    width: 80px;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
