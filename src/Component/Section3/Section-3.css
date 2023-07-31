@@ -3,6 +3,7 @@
     display: flex;
     width: 1000;
     height: 90vh;
+    gap: 460px;
 }
 
 .container4all {
@@ -98,14 +99,14 @@
 
 .containerRight {
     width: 400px;
-    height: 300px;
+    height: 380px;
     flex-shrink: 0;
     border-radius: 12px;
     background: #F7F3FF;
-    margin-left: 450px;
     justify-content: center;
 }
 
 .containerRight>img {
-    width: 400px;
+    width: 330px;
+    margin-top: 15px;
 }
