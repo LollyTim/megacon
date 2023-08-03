@@ -4,6 +4,9 @@
     width: 1000;
     height: 90vh;
     gap: 460px;
+    align-items: center;
+    margin-bottom: 30px;
+    position: relative;
 }
 
 .container4all {
