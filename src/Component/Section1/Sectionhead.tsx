@@ -9,8 +9,8 @@ const Sectionhead = () => {
             <section style={{
                 backgroundImage: `url(Vector.png)`,
                 backgroundRepeat: 'no-repeat',
-                backgroundSize: "60%",
-                backgroundPositionY: "60%"
+                backgroundSize: "650px",
+                backgroundPositionY: "70px"
 
 
             }} >
