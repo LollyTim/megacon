@@ -1,5 +1,11 @@
 .section0 {
-    /* background-image: url(/public/Vector.png); */
+    background-image: url(/public/Vector.png);
+}
+
+.backingn {
+    .section0 {
+        background-image: url(/public/Vector2d.png);
+    }
 }
 
 .section1 {
@@ -10,19 +16,30 @@
     padding-top: 90px;
     padding-bottom: 15%;
     height: 53vh;
+    background-color: transparent;
     /* background-image: url(/public/Vector.png); */
 
 }
 
 .Star1>img {
     margin-left: 240px;
+    background-color: transparent;
+}
+
+.Star1 {
+    background-color: transparent;
 }
 
 .Polygon>img {
     margin-top: 60px;
     margin-left: -30px;
+    background-color: transparent;
 
 
+}
+
+.Polygon {
+    background-color: transparent;
 }
 
 .text2 {
@@ -33,6 +50,7 @@
     font-weight: 300;
     line-height: 150%;
     color: var(--text-color);
+    background-color: transparent;
     /* 30px */
 }
 
@@ -41,21 +59,29 @@
     display: flex;
     justify-content: center;
     color: var(--text-color);
+    background-color: transparent;
+}
+
+.text1 {
+    background-color: transparent;
 }
 
 
 .colored1 {
     color: var(--asidetext-color);
     padding-left: 3px;
+    background-color: transparent;
 }
 
 .colored {
     color: var(--asidetext-color);
     padding-right: 4px;
+    background-color: transparent;
 }
 
 .line2 {
     display: block;
+    background-color: transparent;
 }
 
 .btnn1>button {
@@ -75,8 +101,17 @@
     color: var(--text-color);
 }
 
+.btnn2 {
+    background-color: transparent;
+}
+
+.btnn1 {
+    background-color: transparent;
+}
+
 .btns2 {
     display: flex;
     justify-content: space-around;
     gap: 16px;
+    background-color: transparent;
 }

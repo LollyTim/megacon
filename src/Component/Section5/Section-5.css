@@ -57,7 +57,6 @@
     gap: 11px;
     justify-content: center;
     font-family: outfit;
-    background-color: var(--light-color);
 }
 
 .cont4bodytext {
@@ -69,8 +68,11 @@
     margin: 0;
     text-align: start;
     font-family: outfit;
-    background-color: var(--light-color);
     /* 36px */
+}
+
+.cont4bodytext>p {
+    background-image: var(--lightdark-color);
 }
 
 .twotxt>p {
@@ -79,10 +81,12 @@
     gap: 1px;
     color: #5B4F78;
     font-family: outfit;
-    background-color: var(--light-color);
+    background-color: var(--lightdark-color);
+
 
 }
 
 .twotxt {
     margin-top: 20px;
+    background-color: var(--light-color);
 }

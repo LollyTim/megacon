@@ -27,7 +27,10 @@ const Navbar = () => {
             <div className='aside2'>
                 <div className='loginbtn'><button >Log in</button></div>
                 <div className='signupbtn'><button onClick={() => { setshowModal(true) }}>Sign Up</button></div>
-                <button onClick={() => { document.body.classList.toggle("dark-theme") }} className='moon'> <BsMoonFill /></button>
+                <button className='moon' onClick={() => {
+                    document.body.classList.toggle("dark-theme")
+                    document.body.classList.toggle("backingn")
+                }} > <BsMoonFill /></button>
             </div>
             {
                 showModal &&

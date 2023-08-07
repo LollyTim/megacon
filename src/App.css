@@ -6,7 +6,8 @@
   --dark-color: #985CE6;
   --asidetext-color: #5200FF;
   --border1-color: hsl(259, 100%, 50%);
-  --background-image:url(/public/Vector.png);
+  --background-image: url(/public/Vector.png);
+  --lightdark-color: #E5D7FF;
 
 }
 

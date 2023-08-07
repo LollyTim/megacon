@@ -26,6 +26,7 @@
     align-items: center;
     gap: 11.038px;
     width: 15%;
+    color: var(--lightdark-color);
     background-color: var(--light-color);
 
 }
@@ -81,4 +82,5 @@
     margin-inline-start: -60%;
     margin-inline-end: -60%;
     background-color: var(--light-color);
+
 }

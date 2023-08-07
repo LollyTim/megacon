@@ -2,7 +2,7 @@
     align-items: flex-start;
     gap: 10px;
     border-radius: 16px;
-    background-color: #F7F3FF;
+    background-color: var(--light-color);
     margin-left: 15%;
     margin-right: 15%;
     display: flex;
@@ -16,6 +16,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 40px;
+    background-color: var(--light-color);
 }
 
 .container4text {
@@ -26,24 +27,34 @@
 }
 
 .cont4text {
-    color: #051329;
+    color: var(--text-color);
     font-family: Outfit;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: 120%;
+    background-color: var(--light-color);
     /* 57.6px */
 }
 
+.cont4text>h2 {
+    background-color: var(--light-color);
+}
+
 .cont4p {
-    color: #051329;
+    color: var(--text-color);
     font-family: Outfit;
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
     line-height: 150%;
     text-align: start;
+    background-color: var(--light-color);
     /* 30px */
+}
+
+div.cont4p>p {
+    background-color: var(--light-color);
 }
 
 .container4btn>button {
@@ -52,18 +63,35 @@
     align-items: flex-start;
     gap: 10px;
     border-radius: 2000px;
-    background-color: #9747FF;
+    background-color: var(--dark-color);
     border: none;
     cursor: pointer;
-    color: #F7F3FF;
+    color: var(--light-color);
 
+}
+
+div.container4text {
+    background-color: var(--light-color);
+}
+
+.container4btn>a,
+button {
+    background-color: var(--light-color);
+}
+
+.container4btn {
+    background-color: var(--light-color);
 }
 
 .container4img {
     display: flex;
     margin-top: 50px;
     margin: auto;
-    background-image: var(--background-image);
+    background-color: var(--light-color);
+}
+
+.container4img>img {
+    background-color: var(--light-color);
 }
 
 .container4btn {

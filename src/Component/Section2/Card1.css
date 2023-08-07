@@ -19,6 +19,7 @@
     align-items: center;
     text-align: center;
     margin-top: 25px;
+    background-color: var(--light-color);
 }
 
 .card-image {
@@ -26,4 +27,17 @@
     margin-left: 50px;
     margin-top: 30px;
     margin-bottom: 30px;
+    background-color: var(--light-color);
+}
+
+.cardtext1 {
+    background-color: var(--light-color);
+}
+
+.card-title {
+    background-color: var(--light-color);
+}
+
+.card-image>svg {
+    background-color: var(--light-color);
 }

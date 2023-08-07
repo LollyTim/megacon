@@ -18,7 +18,7 @@ const Section2 = () => {
                 <p>From collating your ideas to finding co-founders & founding teams to first launch and finding early adopters</p>
                 <div className='cardcontainer'>
                     <Card title='Ideation' text='leorem ispieum dommy twxt text' image={<BsPenFill size={100} color="var(--dark-color)" />} />
-                    <Card title='Co-founder' text='leorem ispieum dommy twxt text' image={<div className='faicon'><FaHandshake size={100} color="var(--dark-color)" /></div>} />
+                    <Card title='Co-founder' text='leorem ispieum dommy twxt text' image={<FaHandshake size={100} color="var(--dark-color)" />} />
                     <Card title='Building' text='leorem ispieum dommy twxt text' image={<PiCodeFill size={100} color="var(--dark-color)" />} />
                 </div>
                 <div className='cardcontainer'>
