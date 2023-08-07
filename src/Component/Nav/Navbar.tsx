@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './Navbar.css'
 import SignupModal from '../Modal/SignupModal'
 import { BsMoonFill } from 'react-icons/bs'
-import { FiSun } from 'react-icons/fi'
+// import { FiSun } from 'react-icons/fi'
 
 const Navbar = () => {
 

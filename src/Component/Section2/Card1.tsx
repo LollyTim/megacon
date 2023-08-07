@@ -1,6 +1,8 @@
 import React from 'react'
 import './Card1.css'
 
+
+
 type cardprops = {
     title?: string
     text: string
