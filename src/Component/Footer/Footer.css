@@ -1,0 +1,84 @@
+.footcont1 {
+    display: flex;
+    padding: 53px 80px 20px 80px;
+    justify-content: center;
+    align-items: center;
+    background: var(--light-color);
+}
+
+.footcont4all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    background-color: var(--light-color);
+}
+
+.contain4all {
+    display: flex;
+    align-items: flex-start;
+    gap: 228px;
+    background-color: var(--light-color);
+}
+
+.contain4all>img {
+    display: flex;
+    align-items: center;
+    gap: 11.038px;
+    width: 15%;
+    background-color: var(--light-color);
+
+}
+
+.cont4others {
+    display: flex;
+    align-items: flex-start;
+    gap: 60px;
+    background-color: var(--light-color);
+}
+
+.cont4line1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    background-color: var(--light-color)
+}
+
+.cont4line1>p {
+    color: var(--text-color);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-align: start;
+    width: 90px;
+    font-family: outfit;
+    background-color: var(--light-color);
+}
+
+.cont4line1>h5 {
+    background-color: var(--light-color);
+    color: var(--text-color);
+}
+
+.downtxt {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: var(--text-color);
+    font-family: outfit;
+    background-color: var(--light-color);
+}
+
+.downtxt>p {
+    background-color: var(--light-color);
+}
+
+.downtxt>hr {
+    unicode-bidi: normal;
+    margin-inline-start: -60%;
+    margin-inline-end: -60%;
+    background-color: var(--light-color);
+}

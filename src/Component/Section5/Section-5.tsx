@@ -21,6 +21,7 @@ const Section5 = () => {
                     </div>
                 </div>
             </div>
+            <img src="Frame.png" alt="" />
         </section>
     )
 }

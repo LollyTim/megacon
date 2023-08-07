@@ -56,12 +56,14 @@
     border: none;
     cursor: pointer;
     color: #F7F3FF;
+
 }
 
 .container4img {
     display: flex;
     margin-top: 50px;
     margin: auto;
+    background-image: var(--background-image);
 }
 
 .container4btn {

@@ -1,11 +1,16 @@
+.section0 {
+    background-image: url(/public/Vector.png);
+}
+
 .section1 {
     display: inline-flex;
     flex-direction: column;
     align-items: center;
     gap: 30px;
     padding-top: 90px;
-    padding-bottom: 30%;
+    padding-bottom: 15%;
     height: 53vh;
+    /* background-image: url(/public/Vector.png); */
 
 }
 
@@ -27,7 +32,7 @@
     font-style: normal;
     font-weight: 300;
     line-height: 150%;
-    fill: #1E1E1E;
+    color: var(--text-color);
     /* 30px */
 }
 
@@ -35,16 +40,17 @@
     font-size: 40px;
     display: flex;
     justify-content: center;
+    color: var(--text-color);
 }
 
 
 .colored1 {
-    color: #5200FF;
+    color: var(--asidetext-color);
     padding-left: 3px;
 }
 
 .colored {
-    color: #5200FF;
+    color: var(--asidetext-color);
     padding-right: 4px;
 }
 
@@ -56,7 +62,7 @@
     padding: 16px 24px;
     align-items: flex-start;
     border-radius: 20000px;
-    background: #FFB800;
+    background: #ffb800;
     border: 1px solid;
 }
 
@@ -64,17 +70,13 @@
     padding: 16px 24px;
     align-items: flex-start;
     border-radius: 20000px;
-    border: 1px solid #5200FF;
-    background: #FFF;
+    border: 1px solid var(--border1-color);
+    background: transparent;
+    color: var(--text-color);
 }
 
 .btns2 {
     display: flex;
     justify-content: space-around;
     gap: 16px;
-}
-
-.backg1 img {
-    margin-left: 0;
-
 }

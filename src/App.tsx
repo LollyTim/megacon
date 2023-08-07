@@ -5,6 +5,8 @@ import Section2 from './Component/Section2/Section-2';
 import Section3 from './Component/Section3/Section-3';
 import Section4 from './Component/Section4/Section-4';
 import Section5 from './Component/Section5/Section-5';
+import Section6 from './Component/Section6/Section-6';
+import Footer from './Component/Footer/Footer';
 
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
       <Section3 />
       <Section4 />
       <Section5 />
+      <Section6 />
+      <Footer />
     </div>
   );
 }

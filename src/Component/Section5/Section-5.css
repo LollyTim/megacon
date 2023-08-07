@@ -8,6 +8,13 @@
     height: 30vh;
 }
 
+.container5-1>img {
+    margin-top: 350px;
+    margin-bottom: 50px;
+    width: 1000px;
+    padding-bottom: 70px;
+}
+
 .container4text {
     display: flex;
     flex-direction: column;
@@ -49,6 +56,7 @@
     align-items: center;
     gap: 11px;
     justify-content: center;
+    font-family: outfit;
 }
 
 .cont4bodytext {
@@ -59,6 +67,7 @@
     line-height: 150%;
     margin: 0;
     text-align: start;
+    font-family: outfit;
     /* 36px */
 }
 
@@ -67,6 +76,7 @@
     text-align: start;
     gap: 1px;
     color: #5B4F78;
+    font-family: outfit;
 
 }
 
