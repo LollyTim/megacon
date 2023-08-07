@@ -8,7 +8,8 @@
   --border1-color: hsl(259, 100%, 50%);
   --background-image: url(/public/Vector.png);
   --lightdark-color: #E5D7FF;
-
+  --text2-color: #5B4F78;
+  --shadow-color: #F7F3FF;
 }
 
 .dark-theme {
@@ -20,6 +21,9 @@
   --asidetext-color: white;
   --border1-color: #FFFFFF;
   --background-image: "url(Vector2d.png)";
+  --text2-color: Gray;
+  --lightdark-color: #2F234B;
+  --shadow-color: #18102B;
 }
 
 .App {
